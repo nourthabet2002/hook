@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  
+  text-align: center;
+  width: 80%;
+  border: 2px;
+  row-gap: 10px;
+  gap:10px;
+  
+ 
+ 
+}.card{
+  border: black;
+  background-color: bisque;
+  border: 2px solid black;
+  flex-direction: column;
+  width:300px;
+  
+}.card img{
+  width: 70px;
+}.navbar ol{
+  list-style:none;
+  display:flex;
+  flex-direction: space-between;
+  gap:10px;
+  width: 70px;
+  
+}.navbar{
+  background-color: cadetblue;
+  z-index: 99;
+}
+.modal{
+  background-color: rgba(0, 0, 0, 0.685);
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  position: fixed;
+}
+.box_modal{
+  background-color: rgb(255, 20, 149);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
